@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "../styles/globals.css";
 
-const API = "https://jackbotv2-production.up.railway.app/api";
+const API = "jackbotv2-production.up.railway.app";
 
 export default function Home() {
   const [status, setStatus] = useState("loading");
